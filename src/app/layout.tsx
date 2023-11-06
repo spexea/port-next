@@ -1,25 +1,22 @@
-import type { Metadata } from 'next'
-import Head from 'next/head'
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit sed ullam, enim rerum aliquam quis. Omnis dolore nobis mollitia aspernatur harum illo? Aut ipsam ratione non, praesentium omnis autem.",
-}
-
-
+  title: "Portfolio",
+  description: "Cambiar mas tarde--",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1" />
-<body>{children}</body>
-      </head>
-      
+    <html lang="es"> 
+<body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }

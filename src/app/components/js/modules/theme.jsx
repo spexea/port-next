@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import useTheme from "./Local_storage";
+import useTheme from "../../ts/modules/Local_storage";
 export default function ThemeSwitcher() {
   const [themeUser, setThemeUser] = useTheme("light");
   const [isDarkTheme, setIsDarkTheme] = useState(themeUser);
