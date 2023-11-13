@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-   daisyui: {
+  daisyui: {
     themes: [
        { 
       },

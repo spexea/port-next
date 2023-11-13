@@ -1,10 +1,13 @@
-import Navbar from "./navbar"
-import { Navigation } from "./nav"
-export const Page = () => {
-    return (
-        <div>
-            <Navbar />
-            <Navigation/>
-        </div>
-    )
-}
+import Navbar from "./navbar";
+import { Navigation } from "./nav";
+import { Main } from "../modules/main";
+
+export const Page: React.FC = () => {
+  return (
+    <>
+      <Navbar />
+      <Main />
+      <Navigation />
+    </>
+  );
+};

@@ -1,8 +1,8 @@
 "use client";
 // Importar el hook personalizado useTheme
-import useTheme from "./Local_storage.tsx";
+import useTheme from "../../ts/modules/Local_storage.tsx";
 import React, { useEffect } from "react";
-import { BrushIcon } from "./icons";
+import { BrushIcon } from "../../ts/modules/icons.tsx";
 
 export default function ThemeSelect() {
   // Usar una sola variable para guardar el tema actual

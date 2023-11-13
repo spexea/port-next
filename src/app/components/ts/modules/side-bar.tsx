@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Github, Linkedin, MenuSvgclose, MenuSvgopen } from "./icons";
-import ThemeSelect from "./theme_select";
+import ThemeSelect from "../../js/modules/theme_select";
 import dynamic from "next/dynamic";
 export const Sidebar = () => {
-  const Nossr = dynamic(() => import("./no-ssr"), { ssr: false });
+  const Nossr = dynamic(() => import("../../js/modules/no-ssr"), { ssr: false });
   return (
     <label tabIndex={1} className="btn-circle swap swap-rotate">
       <div className="drawer ">

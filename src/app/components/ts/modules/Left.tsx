@@ -1,7 +1,7 @@
 import { Github, SunIcon, MoonIcon, Linkedin } from "./icons";
 import Link from "next/link";
 import React from "react";
-import ThemeSwitcher from "./theme";
+import ThemeSwitcher from "../../js/modules/theme";
 
 export default function Left() {
   return (

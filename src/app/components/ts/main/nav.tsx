@@ -9,6 +9,7 @@ import {
 } from "../modules/icons";
 import { Sidebar } from "../modules/side-bar";
 
+
 export const Navigation = () => {
   const router = useRouter();
   function goBack() {
