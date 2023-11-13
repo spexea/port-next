@@ -1,3 +1,4 @@
+"use client";
 import { Github, SunIcon, MoonIcon, Linkedin } from "./icons";
 import Link from "next/link";
 import React from "react";

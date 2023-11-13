@@ -2,9 +2,19 @@
 import React from "react";
 import Image from "next/image";
 
-
-
-const Card = ({ imageSrc, title, content, width, height }: {imageSrc: string, title:string, content: string, width:number, height: number }) => {
+const Card = ({
+  imageSrc,
+  title,
+  content,
+  width,
+  height,
+}: {
+  imageSrc: string;
+  title: string;
+  content: string;
+  width: number;
+  height: number;
+}) => {
   return (
     <div className="flex">
       <div className="">
