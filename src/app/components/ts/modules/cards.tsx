@@ -1,14 +1,50 @@
 import React from "react";
 import Card from "./cards_data";
-import laptop from "../../data/image.png";
+import Ti1 from "@/app/components/data/image.png";
+import Ti2 from "@/app/components/data/image.png";
 
 const cardsData = [
   {
-    imageSrc: laptop.src,
+    imageSrc: Ti1.src,
+    title: "Card 1",
+    content: "Lorem ipsum dolor sit amt, consectetur adipisicing elit.",
+    width: Ti1.width,
+    height: Ti1.height,
+  },
+  {
+    imageSrc: Ti2.src,
     title: "Card 2",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    width: laptop.width,
-    height: laptop.height,
+    width: Ti2.width,
+    height: Ti2.height,
+  },
+  {
+    imageSrc: Ti1.src,
+    title: "Card 1",
+    content: "Lorem ipsum dolor sit amt, consectetur adipisicing elit.",
+    width: Ti1.width,
+    height: Ti1.height,
+  },
+  {
+    imageSrc: Ti2.src,
+    title: "Card 2",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    width: Ti2.width,
+    height: Ti2.height,
+  },
+  {
+    imageSrc: Ti1.src,
+    title: "Card 1",
+    content: "Lorem ipsum dolor sit amt, consectetur adipisicing elit.",
+    width: Ti1.width,
+    height: Ti1.height,
+  },
+  {
+    imageSrc: Ti2.src,
+    title: "Card 2",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    width: Ti2.width,
+    height: Ti2.height,
   },
 ];
 
