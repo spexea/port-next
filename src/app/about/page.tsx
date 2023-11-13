@@ -36,27 +36,27 @@ const About = () => {
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Offices worldwide</dt>
+                <dt className="text-base leading-7 ">Hours of practice</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  12
+                  +1900
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Full-time colleagues</dt>
+                <dt className="text-base leading-7 ">Projects finalized</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  300+
+                  4
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Hours per week</dt>
+                <dt className="text-base leading-7 ">Started learning</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  40
+                  Dec. 2022.
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Paid time off</dt>
+                <dt className="text-base leading-7 ">College education</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  Unlimited
+                  Undergoing Software Engenering
                 </dd>
               </div>
             </dl>

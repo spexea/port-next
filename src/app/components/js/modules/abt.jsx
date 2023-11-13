@@ -10,7 +10,7 @@ export const Abt = () => {
         <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> What is a SAAS platform?</span>
+              <span> What tecnologies I use?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -28,8 +28,8 @@ export const Abt = () => {
               </span>
             </summary>
             <p className=" mt-3 group-open:animate-fadeIn">
-              SAAS platform is a cloud-based software service that allows users
-              to access and use a variety of tools and functionality.
+              Mosly React w Typescript, NPM and TailwindCSS. I also im
+              familirized w frameworks server-oriented like NextJS.
             </p>
           </details>
         </div>
