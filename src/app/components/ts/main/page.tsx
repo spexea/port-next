@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 import { Navigation } from "./nav";
 import { Main } from "../modules/main";
 
-export const Page: React.FC = () => {
+export default function Page() {
   return (
     <>
       <Navbar />
@@ -11,4 +11,4 @@ export const Page: React.FC = () => {
       <Navigation />
     </>
   );
-};
+}
