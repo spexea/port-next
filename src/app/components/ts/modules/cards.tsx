@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./cards_data";
-import Ti1 from "@/app/components/data/image.png";
-import Ti2 from "@/app/components/data/image.png";
+import Ti1 from "@/app/components/data/Tiara1.jpg";
+import Ti2 from "@/app/components/data/Tiara2.jpg";
 
 const cardsData = [
   {
