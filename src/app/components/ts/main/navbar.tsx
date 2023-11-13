@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Pc_Menu } from "../modules/Pc_menu";
 import Left from "../modules/Left";
