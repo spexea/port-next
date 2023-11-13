@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+ 
   "dependencies": {
     "@react-three/fiber": "^8.15.10",
     "@types/three": "^0.158.2",

@@ -1,4 +1,3 @@
-"use client";
 import { Page } from "./components/ts/main/page";
 import "tailwindcss";
 export default function Home() {
