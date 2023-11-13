@@ -21,12 +21,12 @@ export const Sidebar = () => {
             <ul className="space-y-2">
               <Link href="/projects">
                 <li>
-                  <h2 className="text-lg">Projects</h2>
+                  <h2 className="text-lg">Proyectos</h2>
                 </li>
               </Link>
               <Link href="/about">
                 <li>
-                  <h2 className="text-lg">About</h2>
+                  <h2 className="text-lg">Sobre</h2>
                 </li>
               </Link>
             </ul>

@@ -10,7 +10,6 @@ const About = () => {
   return (
     <>
       <Navbar />
-
       <div className="relative isolate overflow-hidden py-24 sm:py-32">
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -28,11 +27,12 @@ const About = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                Work with me
+                Trabaja conmigo
               </h2>
               <p className="mt-6 text-lg leading-8">
-                A animated, junior FrontEnd Dev. with would help you and your
-                team the goals on time.
+                Un desarrollador FrontEnd junior y animado que te ayudará a
+                alcanzar los objetivos con tu equipo a tiempo. Desarrollador
+                bilingüe, ESP-ENG.
               </p>
             </div>
             <div className=" hidden lg:block">
@@ -42,36 +42,38 @@ const About = () => {
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Hours of practice</dt>
+                <dt className="text-base leading-7 ">Horas de Práctica</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
                   +1900
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Projects finalized</dt>
+                <dt className="text-base leading-7 ">Proyectos Finalizados</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
                   4
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">Started learning</dt>
+                <dt className="text-base leading-7 ">Inicio del Aprendizaje</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  Dec; 2022.
+                  Dic; 2022.
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
                 <dt className="text-base leading-7 ">
-                  Undergoing College Education
+                  Educación Universitaria En Curso
                 </dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  Software Engenering
+                  Ingeniería de Software
                 </dd>
               </div>
             </dl>
           </div>
         </div>
       </div>
+
       <Abt />
+      <div className="px-2"></div>
       <Navigation />
     </>
   );

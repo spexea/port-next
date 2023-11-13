@@ -14,17 +14,17 @@ export const Pc_Menu = () => {
             "/projects" == Url ? "tab-active" : ""
           }`}
         >
-          <Link href="/projects">Projects</Link>
+          <Link href="/projects">Proyectos</Link>
         </li>
         <li className={`z-1 tab tab-lifted ${"/" == Url ? "tab-active" : ""}`}>
-          <Link href="/">Home</Link>
+          <Link href="/">Inicio</Link>
         </li>
         <li
           className={`z-1 tab tab-lifted ${
             "/about" == Url ? "tab-active" : ""
           }`}
         >
-          <Link href="/about">About</Link>
+          <Link href="/about">Sobre</Link>
         </li>
       </ul>
     </div>
