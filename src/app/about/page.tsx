@@ -3,6 +3,7 @@ import Navbar from "@/app/components/ts/main/navbar";
 import { Navigation } from "@/app/components/ts/main/nav";
 import { Abt } from "../components/js/modules/abt";
 import Image from "next/image";
+import Laptop from "../components/data/image.png";
 
 const About = () => {
   return (
@@ -23,15 +24,19 @@ const About = () => {
           <div className="aspect-[1097/845] w-[68.5625rem] "></div>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight  sm:text-6xl">
-              Work with me
-            </h2>
-            <p className="mt-6 text-lg leading-8 ">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
-            </p>
+          <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
+            <div className="mx-auto max-w-2xl lg:mx-0">
+              <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">
+                Work with me
+              </h2>
+              <p className="mt-6 text-lg leading-8">
+                A animated, junior FrontEnd Dev. with would help you and your
+                team the goals on time.
+              </p>
+            </div>
+            <div className=" hidden lg:block">
+              <Image src={Laptop} alt="laptop" width="220" height="220" />
+            </div>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
@@ -50,13 +55,15 @@ const About = () => {
               <div className="flex flex-col-reverse">
                 <dt className="text-base leading-7 ">Started learning</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  Dec. 2022.
+                  Dec; 2022.
                 </dd>
               </div>
               <div className="flex flex-col-reverse">
-                <dt className="text-base leading-7 ">College education</dt>
+                <dt className="text-base leading-7 ">
+                  Undergoing College Education
+                </dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight ">
-                  Undergoing Software Engenering
+                  Software Engenering
                 </dd>
               </div>
             </dl>
