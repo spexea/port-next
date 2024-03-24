@@ -1,12 +1,14 @@
 import React from "react";
 
+// Componente funcional para la sección "Más Sobre Mí"
 export const Abt = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-5 min-h-screen">
       <div className="flex flex-col items-center">
-        <h2 className="font-bold text-5xl mt-5 tracking-tight">Más Sobre Mí</h2>
+        <h2 className="font-bold text-5xl mt-5 tracking-tight">Más Sobre mí</h2>
         <p className="text-xl mt-3"></p>
       </div>
+      {/* Detalles de la sección */}
       <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
         <div className="py-5">
           <details className="group">

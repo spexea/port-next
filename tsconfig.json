@@ -25,6 +25,6 @@
   "@/main":["./src/app/components/ts/main"],
 "@/data":["./src/app/components/data"]          }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/ts/modules/Local_storage.tsx", "src/app/components/js/modules/theme_select.jsx", "src/app/components/js/modules/no-ssr.jsx", "src/app/layout.sx", "src/app/components/js/modules/theme.jsx", "src/app/layout.ssx", "src/app/not-found.jsx", "src/app/components/ts/modules/mouse_track.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/ts/modules/Local_storage.tsx", "src/app/components/js/modules/theme_select.jsx", "src/app/components/js/modules/no-ssr.jsx", "src/app/layout.sx", "src/app/components/js/modules/theme.jsx", "src/app/layout.ssx", "src/app/not-found.jsx", "src/app/components/ts/modules/mouse_track.jsx", "src/app/components/ts/modules/Animation.jsx", "src/app/components/ts/modules/cards.jsx"],
   "exclude": ["node_modules"]
 }
