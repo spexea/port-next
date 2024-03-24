@@ -2,12 +2,13 @@
 import React from "react";
 import Image from "next/image";
 
+// Componente funcional de tarjeta
 const Card = ({
-  imageSrc,
-  title,
-  content,
-  width,
-  height,
+  imageSrc, // Fuente de la imagen
+  title, // Título de la tarjeta
+  content, // Contenido de la tarjeta
+  width, // Ancho de la imagen
+  height, // Alto de la imagen
 }: {
   imageSrc: string;
   title: string;
@@ -18,8 +19,10 @@ const Card = ({
   return (
     <div className="flex">
       <div className="">
+        {/* Estructura de la tarjeta */}
         <div className="w-86 card card-bordered card-normal bg-base-100 shadow-xl lg:w-96">
           <figure>
+            {/* Imagen */}
             <Image
               className="fill"
               src={imageSrc}
@@ -28,12 +31,14 @@ const Card = ({
               alt="just a -test."
             />
           </figure>
+          {/* Contenido de la tarjeta */}
           <div className="card-body">
             <h2 className="card-title">{title}</h2>
             <p>{content}</p>
+            {/* Acciones de la tarjeta */}
             <div className="card-actions justify-end">
               <button type="submit" className="btn btn-primary">
-                Check it!
+                Revisalo!
               </button>
             </div>
           </div>
@@ -43,4 +48,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default Card; // Exporta el componente de tarjeta

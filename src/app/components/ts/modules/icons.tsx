@@ -1,24 +1,28 @@
 import React from "react";
+
+// Interfaz para los props del componente SVG
 interface SvgProps {
-  className?: string;
-  width?: string;
-  height?: string;
+  className?: string; // Clase CSS opcional
+  width?: string; // Ancho opcional
+  height?: string; // Alto opcional
   // Otros props específicos del componente SVG si los tienes
 }
 
+// Componente funcional de SVG para el ícono de menú abierto
 export const MenuSvgopen: React.FC<SvgProps> = (props) => {
   return (
     <svg
-      className={props.className || "swap-off fill-current"}
+      className={props.className || "swap-off fill-current"} // Clase CSS de DaisyUI, que controla el estado.
       xmlns="http://www.w3.org/2000/svg"
-      width={props.width || "32"}
-      height={props.height || "32"}
+      width={props.width || "32"} // Ancho predeterminado si no se proporciona ninguno
+      height={props.height || "32"} // Alto predeterminado si no se proporciona ninguno
       viewBox="0 0 512 512"
     >
       <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
     </svg>
   );
 };
+// Exactamente la misma logica, una y otra vez, para cada icono que necesites.
 export const Github: React.FC<SvgProps> = (props: SvgProps) => {
   return (
     <svg

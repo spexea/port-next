@@ -1,17 +1,19 @@
 import React from "react";
 
+// Componente funcional para la sección "Más Sobre Mí"
 export const Abt = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-5 min-h-screen">
       <div className="flex flex-col items-center">
-        <h2 className="font-bold text-5xl mt-5 tracking-tight">More of me</h2>
+        <h2 className="font-bold text-5xl mt-5 tracking-tight">Más Sobre mí</h2>
         <p className="text-xl mt-3"></p>
       </div>
+      {/* Detalles de la sección */}
       <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
         <div className="py-5">
           <details className="group">
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> What technologies do I use?</span>
+              <span> ¿Qué tecnologías uso?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -28,44 +30,17 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3 text-secondary  group-open:animate-fadeIn">
-              Mostly React with TypeScript, NPM, and TailwindCSS. I&apos;m also
-              familiar with server-oriented frameworks like NextJS.
-            </p>
-          </details>
-        </div>
-        <div className="py-5">
-          <details className="group">
-            <summary className="flex  text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> Why do I use these?</span>
-              <span className="transition group-open:rotate-180">
-                <svg
-                  fill="none"
-                  height="24"
-                  shapeRendering="geometricPrecision"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                >
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <p className="mt-3 text-secondary  group-open:animate-fadeIn">
-              I considered these options the best to start my journey as a
-              Software Dev. Mostly because they often give me the opportunity to
-              create complex websites from scratch more quickly, sustainably,
-              and expansively over time.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Principalmente React con TypeScript, NPM y TailwindCSS. También
+              estoy familiarizado con frameworks orientados al servidor como
+              NextJS.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> Why would I be a good coworker?</span>
+              <span> ¿Por qué uso estas tecnologías?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -82,10 +57,37 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3  text-secondary  group-open:animate-fadeIn">
-              I&apos;m a very respectful, sociable, team-worker, and kind
-              person. I would say that I&apos;m a good fit for almost any type
-              of team.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Considero que estas opciones son las mejores para comenzar mi
+              trayectoria como desarrollador de software. Principalmente porque
+              me brindan la oportunidad de crear sitios web complejos desde cero
+              de manera más rápida, sostenible y expansiva con el tiempo.
+            </p>
+          </details>
+        </div>
+        <div className="py-5">
+          <details className="group">
+            <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
+              <span> ¿Por qué sería un buen compañero de trabajo?</span>
+              <span className="transition group-open:rotate-180">
+                <svg
+                  fill="none"
+                  height="24"
+                  shapeRendering="geometricPrecision"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Soy una persona muy respetuosa, sociable, trabajo bien en equipo y
+              amable. Diría que encajo bien en casi cualquier tipo de equipo.
             </p>
           </details>
         </div>
@@ -94,8 +96,8 @@ export const Abt = () => {
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
               <span>
                 {" "}
-                Why did I start learning software development, and how do I
-                consider myself in a work environment?
+                ¿Por qué empecé a aprender desarrollo de software y cómo me
+                considero en un entorno laboral?
               </span>
               <span className="transition group-open:rotate-180">
                 <svg
@@ -113,26 +115,26 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3  text-secondary  group-open:animate-fadeIn">
-              I started learning software development because it&apos;s
-              something that I&apos;m passionate about. I love learning more
-              every day, taking time off my day to practice it. For that reason,
-              I almost guarantee that in a work environment, I would care about
-              learning every day, growing with the enterprise. Learning is very
-              important to me, to stay with the best practices and create more
-              and more clean code, and you need to keep an open mind in those
-              things. I feel very proud of the things that I create, and in most
-              cases, it would feel very bad knowing that actually; it&apos;s bad
-              code. But I need to understand that it&apos;s a normal thing and
-              learn from it. In summary: I probably consider myself a learning
-              person of the work environment and workflow.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Empecé a aprender desarrollo de software porque es algo que me
+              apasiona. Me encanta aprender más cada día, dedicar tiempo de mi
+              día para practicarlo. Por esa razón, casi garantizo que en un
+              entorno laboral, me preocuparía por aprender cada día, crecer con
+              la empresa. Aprender es muy importante para mí, para mantener las
+              mejores prácticas y crear código cada vez más limpio. Necesitas
+              mantener la mente abierta en esas cosas. Me siento muy orgulloso
+              de las cosas que creo, y en la mayoría de los casos, me sentiría
+              muy mal sabiendo que, en realidad, es un mal código. Pero necesito
+              entender que es algo normal y aprender de ello. En resumen:
+              probablemente me considero una persona de aprendizaje en el
+              entorno laboral y flujo de trabajo.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> Do I know CSS, SASS, and JavaScript or similar?</span>
+              <span> ¿Conozco CSS, SASS y JavaScript o similares?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -149,19 +151,18 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3 text-secondary  group-open:animate-fadeIn">
-              Yes, that&apos;s an important part of my specialty; FrontEnd. I
-              don&apos;t use them on my public personal projects; I prefer using
-              React, TailwindCss, TypeScript, etc. but I&apos;m open-minded to
-              use them if needed.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Sí, esa es una parte importante de mi especialidad: FrontEnd. No
+              los uso en mis proyectos personales públicos; prefiero usar React,
+              TailwindCss, TypeScript, etc., pero estoy abierto a usarlos si es
+              necesario.
             </p>
           </details>
         </div>
-
         <div className="py-5">
           <details className="group">
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> How do I contact you?</span>
+              <span> ¿Cómo puedo contactarte?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -178,8 +179,8 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3   text-secondary  group-open:animate-fadeIn">
-              You can contact me at my personal email address:
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Puedes contactarme en mi correo electrónico personal:
               lahualdycasilla@icloud.com
             </p>
           </details>
@@ -189,7 +190,7 @@ export const Abt = () => {
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
               <span>
                 {" "}
-                Do I think of using another framework like Vue, Angular, etc?
+                ¿Piensa en usar otro framework como Vue, Angular, etc.?
               </span>
               <span className="transition group-open:rotate-180">
                 <svg
@@ -207,18 +208,18 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3  text-secondary  group-open:animate-fadeIn">
-              My main goal is to have a general knowledge of at least every
-              framework that I can. So, the answer is an absolute yes. Anyway,
-              that goal is going to take a lot of time because I need to know as
-              much as I can about each one of them.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              Mi objetivo principal es tener un conocimiento general de al menos
+              cada framework que pueda. Así que la respuesta es un sí rotundo.
+              De todos modos, ese objetivo llevará mucho tiempo porque necesito
+              saber tanto como sea posible sobre cada uno de ellos.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex text-primary-focus justify-between items-center font-medium cursor-pointer list-none">
-              <span> Can I suggest changes to your projects? </span>
+              <span> ¿Puedo sugerir cambios en tus proyectos?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -235,9 +236,9 @@ export const Abt = () => {
                 </svg>
               </span>
             </summary>
-            <p className="mt-3  text-secondary  group-open:animate-fadeIn">
-              Absolutely! You can write me at my email address about the changes
-              you propose, and I will consider them.
+            <p className="mt-3 text-secondary group-open:animate-fadeIn">
+              ¡Absolutamente! Puedes escribirme a mi dirección de correo
+              electrónico sobre los cambios que propones, y los consideraré.
             </p>
           </details>
         </div>
